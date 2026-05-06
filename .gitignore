@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML datasets and generated splits
+Dataset_Ready/
+Final_Split_Data/
+Medicinal Leaf/
+
+# Trained models and checkpoints
+*.h5
+*.keras
+*.ckpt
+*.pt
+*.pth
+checkpoints/
+models/
+
+# Logs and generated reports
+logs/
+*.log
+tensorboard/
+runs/
+
