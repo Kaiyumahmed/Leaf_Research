@@ -71,3 +71,49 @@ The training workflow is structured as follows:
 ├── models/                    # Saved .h5 and .tflite outputs
 ├── requirements.txt           # Python environment dependencies
 └── README.md
+
+```
+
+---
+
+## 🚀 How to Run Locally
+
+### 1. Setup Environment
+
+Ensure you have Python 3.8+ installed. It is recommended to use a virtual environment.
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+pip install -r requirements.txt
+
+```
+
+### 2. Prepare Data
+
+Place your dataset in the `dataset/` directory, organized by class folders (e.g., `dataset/Neem/`, `dataset/Basil/`).
+
+### 3. Run Jupyter Notebooks
+
+Launch Jupyter to explore the training process step-by-step:
+
+```bash
+jupyter notebook
+
+```
+
+Execute the notebooks in the `notebooks/` directory sequentially. The final output will be a `leaf_model.tflite` file generated in the `models/` directory.
+
+---
+
+## 👥 Authors
+
+* **Kaiyum Ahmed** (ID: 222-15-6***)
+* **S.M. Mojahedul Islam** (ID: 222-15-6***)
+
+**Department of Computer Science and Engineering (CSE)**
+*Daffodil International University*
+
+```
+
+```
